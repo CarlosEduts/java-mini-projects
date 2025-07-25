@@ -2,10 +2,15 @@ package projects.calculator;
 
 import java.util.Scanner;
 
+/* 
+ * Projeto: Calculadora simples
+ * Meta: Criar um programa com main(), usar Scanner, tipos primitivos e condicionais.
+ * Data de criação: 24/07/2025
+*/
+
 public class Calculator {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-
         double result = 0;
 
         System.out.println("Calculadora simples de dois números!");
