@@ -18,7 +18,6 @@ public class StudentManager {
         Student student = new Student(name, email, age);
         students.add(student);
         System.out.println("Estudante adicionado com sucesso!");
-        ;
     }
 
     public void listStudents() {
