@@ -12,7 +12,7 @@ public class Main {
 
         try {
             myAccount.withdraw(250);
-        } catch (Exception e) {
+        } catch (InsufficientBalanceException e) {
             System.out.println("Erro ...: " + e.getMessage());
         }
     }
