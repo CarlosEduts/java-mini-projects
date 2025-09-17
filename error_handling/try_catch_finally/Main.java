@@ -3,7 +3,7 @@ package error_handling.try_catch_finally;
 /*
  * Conteúdo: Tratamento de Erros e Exceções em Java
  * Caso de uso: Bloco try-catch-finally
- * Data de criação: 17/09
+ * Data de criação: 17/09/2025
  */
 
 public class Main {
