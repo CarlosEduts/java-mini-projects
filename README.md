@@ -2,13 +2,9 @@
 
 Repositório com mini-projetos em **Java** criados para aprimorar habilidades práticas e consolidar conceitos fundamentais da linguagem.
 
----
-
 ## Sobre
 
 Este repositório reúne exemplos pequenos e focados para estudar e demonstrar conceitos de programação orientada a objetos (POO), herança, polimorfismo, tratamento de exceções e estruturas de dados básicas em Java. Cada mini-projeto é intencionalmente simples — pensado para facilitar leitura, experimentação e evolução incremental.
-
----
 
 ## Conteúdo / Projetos incluídos
 
@@ -24,15 +20,11 @@ Projetos atuais (cada pasta contém código-fonte com `Main` ou ponto de entrada
 
 > Observação: estes são exemplos práticos — cada pasta está isolada para facilitar execução e testes. Novos mini-projetos serão adicionados conforme avanço dos estudos.
 
----
-
 ## Boas práticas adotadas
 
 - Código legível e organizado por responsabilidade (classes pequenas e focadas).
 - Tratamento explícito de exceções quando necessário.
 - Encapsulamento e uso de construtores para modelagem de objetos.
-
----
 
 ## Agradecimento
 
