@@ -1,5 +1,11 @@
 package error_handling.multi_catch;
 
+/*
+ * Conteúdo: Tratamento de Erros e Exceções em Java
+ * Caso de uso: Multi-catch
+ * Data de criação: 19/09/2025
+ */
+
 public class Main {
     public static void main(String[] args) {
         try {
