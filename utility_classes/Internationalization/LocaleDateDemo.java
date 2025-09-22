@@ -1,4 +1,4 @@
-package utility_classes.date;
+package utility_classes.Internationalization;
 
 import java.text.DateFormat;
 import java.util.Calendar;
@@ -10,7 +10,7 @@ import java.util.Locale;
  * Data de criação: 22/09/2025
  */
 
-public class LocaleDemo {
+public class LocaleDateDemo {
     public static void main(String[] args) {
         Locale brasilLocale = new Locale.Builder().setLanguage("pt").setRegion("BR").build();
         Locale italyLocale = new Locale.Builder().setLanguage("it").setRegion("IT").build();
