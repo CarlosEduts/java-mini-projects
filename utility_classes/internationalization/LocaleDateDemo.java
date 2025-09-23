@@ -1,4 +1,4 @@
-package utility_classes.Internationalization;
+package utility_classes.internationalization;
 
 import java.text.DateFormat;
 import java.util.Calendar;
