@@ -11,6 +11,7 @@ Este repositório reúne exemplos pequenos e focados para estudar e demonstrar c
 Projetos atuais (cada pasta contém código-fonte com `Main` ou ponto de entrada equivalente):
 
 **Projetos `projects/`:**
+
 - **Calculadora** — operações básicas (entrada pelo `Scanner`, condicionais e operadores).
 - **Conversor de Temperatura** — funções para conversão entre escalas e uso de condicionais.
 - **Cadastro de Pessoa** — exemplo de classe, construtor e encapsulamento.
@@ -20,12 +21,19 @@ Projetos atuais (cada pasta contém código-fonte com `Main` ou ponto de entrada
 - **Sistema de Biblioteca** — demonstra herança e polimorfismo (`abstract`, `super`, `@Override`).
 
 **Tratamento de Erros e Exceções `error_handling/`:**
+
 - Criando exceções personalizadas
 - Throws e propagação de exceções
 - Multi-catch
 - Captura múltipla de exceções
 - Bloco try-catch-finally
 - Try-with-resources
+
+**Classes utilitárias `utility_classes/`:**
+
+- Manipulação de Strings
+- Datas e horários
+- internacionalização de datas e moedas
 
 > Observação: estes são exemplos práticos — cada pasta está isolada para facilitar execução e testes. Novos mini-projetos serão adicionados conforme avanço dos estudos.
 
