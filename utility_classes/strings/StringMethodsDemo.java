@@ -32,5 +32,12 @@ public class StringMethodsDemo {
         // Remover caracteres de espaço do inicio e fim de uma string
         String nameWithSpaces = "     Carlos    ";
         System.out.println(nameWithSpaces.trim());
+
+        // Fatiar uma string
+        String fruits = "Maçã, banana, morango, abacaxi";
+        String[] fruitsArray = fruits.split(",");
+        for (String fruit : fruitsArray) {
+            System.out.println("Fruta ...: " + fruit);
+        }
     }
 }
