@@ -13,7 +13,7 @@ import java.io.IOException;
 
 public class BufferedWriterDemo {
     public static void main(String[] args) {
-        File file = new File("./utility_classes/file/file.txt");
+        File file = new File("./files/file.txt");
 
         try (
                 FileWriter fileWriter = new FileWriter(file, true);

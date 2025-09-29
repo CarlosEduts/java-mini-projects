@@ -11,7 +11,7 @@ import java.io.IOException;
 
 public class FileDemo {
     public static void main(String[] args) {
-        File file = new File("./utility_classes/file/myFileDemo.txt");
+        File file = new File("./files/file.txt");
 
         // Criar o arquivo, e imprimir informações sobre sua criação
         try {

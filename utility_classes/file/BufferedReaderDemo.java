@@ -13,7 +13,7 @@ import java.io.IOException;
 
 public class BufferedReaderDemo {
     public static void main(String[] args) {
-        File file = new File("./utility_classes/file/file.txt");
+        File file = new File("./files/file.txt");
 
         try (
                 FileReader fileReader = new FileReader(file);

@@ -12,7 +12,7 @@ import java.io.IOException;
 
 public class FileWriterDemo {
     public static void main(String[] args) {
-        File file = new File("./utility_classes/file/myFileWriterDemo.txt");
+        File file = new File("./files/file.txt");
 
         try (FileWriter fileWriter = new FileWriter(file, true)) {
             fileWriter.write("Olá, Mundo! \n");
