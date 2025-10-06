@@ -1,9 +1,9 @@
 package utility_classes.collections;
 
 /*
- * Conteúdo: Classes Utilitárias 
+ * Conteúdo: Classes Utilitárias
  * Caso de uso: Trabalhando com coleções, comparação de objetos com o método equals()
- * Data de criação: 02/09/2025
+ * Data de criação: 02/10/2025
  */
 
 public class EqualsDemo {

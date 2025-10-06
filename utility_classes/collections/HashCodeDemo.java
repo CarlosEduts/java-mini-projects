@@ -1,9 +1,9 @@
 package utility_classes.collections;
 
 /*
- * Conteúdo: Classes Utilitárias 
+ * Conteúdo: Classes Utilitárias
  * Caso de uso: Trabalhando com coleções, método hashCode()
- * Data de criação: 04/09/2025
+ * Data de criação: 04/10/2025
  */
 
 public class HashCodeDemo {
