@@ -12,10 +12,12 @@ import java.util.TreeSet;
 class Smartphone implements Comparable<Smartphone> {
     private String brand;
     private String model;
+    private Integer year;
 
-    Smartphone(String brand, String model) {
+    Smartphone(String brand, String model, int year) {
         this.brand = brand;
         this.model = model;
+        this.year = year;
     }
 
     public String getBrand() {
@@ -24,6 +26,10 @@ class Smartphone implements Comparable<Smartphone> {
 
     public String getModel() {
         return model;
+    }
+
+    public int getYear() {
+        return year;
     }
 
     @Override
@@ -36,19 +42,35 @@ class Smartphone implements Comparable<Smartphone> {
 
     @Override
     public int compareTo(Smartphone s) {
-        return this.brand.compareTo(s.getBrand());
+        return this.year.compareTo(s.getYear());
     }
 }
 
 public class NavigableSetDemo {
     public static void main(String[] args) {
-        NavigableSet<Smartphone> smartphones = new TreeSet<>();
-        smartphones.add(new Smartphone("Apple", "iPhone 13"));
-        smartphones.add(new Smartphone("Samsung", "Galaxy S21"));
-        smartphones.add(new Smartphone("Google", "Pixel 6"));
+        NavigableSet<Smartphone> smartphones = new TreeSet<Smartphone>();
+        smartphones.add(new Smartphone("Apple", "iPhone 13", 2021));
+        smartphones.add(new Smartphone("Samsung", "Galaxy S24", 2024));
+        smartphones.add(new Smartphone("Google", "Pixel 9", 2023));
 
         // O NavigableSet mantém os elementos ordenados naturalmente de acordo com o
         // compareTo declarado na classe Smartphone
         System.out.println("Todos os smartphones ...: " + smartphones);
+
+        // Obtendo o smartphone mais antigo (menor)
+        Smartphone oldest = smartphones.first();
+        System.out.println("Smartphone mais antigo ...: " + oldest);
+
+        // Obtendo o smartphone mais novo (maior)
+        Smartphone newest = smartphones.last();
+        System.out.println("Smartphone mais novo ...: " + newest);
+
+        // Obtendo o smartphone imediatamente anterior ao Samsung
+        Smartphone beforeSamsung = smartphones.lower(new Smartphone("Samsung", "Galaxy S24", 2024));
+        System.out.println("Smartphone antes do Samsung ...: " + beforeSamsung);
+
+        // Obtendo o smartphone imediatamente posterior ao Samsung
+        Smartphone afterSamsung = smartphones.higher(new Smartphone("Samsung", "Galaxy S24", 2024));
+        System.out.println("Smartphone depois do Samsung ...: " + afterSamsung);
     }
 }
