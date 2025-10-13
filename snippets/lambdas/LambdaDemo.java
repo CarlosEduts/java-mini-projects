@@ -1,5 +1,6 @@
 package snippets.lambdas;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.function.Consumer;
 
@@ -17,9 +18,13 @@ interface Operation {
 public class LambdaDemo {
     public static void main(String[] args) {
         // Usando expressão lambda para percorrer uma lista e imprimir cada nome
-        List<String> names = List.of("Ana", "Bia", "Lia", "Gui");
+        List<String> names = new ArrayList<>(List.of("Bia", "Ana", "Lia", "Gui"));
         names.forEach(name -> System.out.println("Nome ...: " + name));
         System.out.println();
+
+        // Ordenando a lista
+        names.sort((n1, n2) -> n1.compareTo(n2)); // Expressão lambda
+        names.sort(String::compareTo); // Referência a método
 
         // Usando uma função auxiliar com expressão lambda
         System.out.println("Usando função auxiliar:");
