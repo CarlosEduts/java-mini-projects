@@ -29,7 +29,7 @@ class ListAllFiles extends SimpleFileVisitor<Path> {
 
 public class SimpleFileVisitorDemo {
     public static void main(String[] args) {
-        Path dir = Path.of("error_handling"); // Diretório atual
+        Path dir = Path.of("projects");
 
         try {
             Files.walkFileTree(dir, new ListAllFiles());

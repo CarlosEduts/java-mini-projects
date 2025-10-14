@@ -14,10 +14,8 @@ public class RelativizeDemo {
         Path dir = Paths.get("/home/ubuntu-dev"); // Caminho absoluto
         Path file = Paths.get("/home/ubuntu-dev/java-mini-projects/files/file.txt"); // Caminho absoluto
 
-        // Caminho relativo
         // Se eu estiver no diretório dir, qual o caminho para chegar no arquivo file
         Path pathToFile = dir.relativize(file);
-
         System.out.println("Caminho para chegar no arquivo ...: " + pathToFile);
     }
 }

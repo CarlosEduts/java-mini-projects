@@ -15,13 +15,11 @@ import snippets.generics.service.ContentRental;
 
 public class Main {
     public static void main(String[] args) {
-        // Criando instâncias de Book e Movie
         Book book1 = new Book("1984", "George Orwell");
         Book book2 = new Book("Animal Farm", "George Orwell");
         Movie movie1 = new Movie("Inception", "Christopher Nolan");
         Movie movie2 = new Movie("Interstellar", "Christopher Nolan");
 
-        // Adicionando livros e filmes às listas
         List<Book> books = new ArrayList<>();
         books.add(book1);
         books.add(book2);

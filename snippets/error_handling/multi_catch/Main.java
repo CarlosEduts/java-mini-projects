@@ -1,8 +1,8 @@
 package snippets.error_handling.multi_catch;
 
 /*
- * Conteúdo: Tratamento de Erros e Exceções em Java
- * Caso de uso: Multi-catch
+ * Conteúdo: Tratamento de Erros e Exceções 
+ * Caso de uso: Captura múltipla de exceções em um único bloco catch
  * Data de criação: 19/09/2025
  */
 

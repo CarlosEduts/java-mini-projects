@@ -12,7 +12,7 @@ import java.nio.file.Path;
 
 public class DirectoryStreamDemo {
     public static void main(String[] args) {
-        Path dir = Path.of("."); // Diretório atual
+        Path dir = Path.of(".");
 
         try (DirectoryStream<Path> stream = Files.newDirectoryStream(dir)) {
             for (Path path : stream) {

@@ -5,8 +5,8 @@ import java.io.FileReader;
 import java.io.IOException;
 
 /*
- * Conteúdo: Tratamento de Erros e Exceções em Java
- * Caso de uso: Throws e propagação de exceções
+ * Conteúdo: Tratamento de Erros e Exceções
+ * Caso de uso: Propagação de exceções com throws
  * Data de criação: 17/09/2025
  */
 

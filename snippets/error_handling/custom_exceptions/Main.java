@@ -1,8 +1,8 @@
 package snippets.error_handling.custom_exceptions;
 
 /*
- * Conteúdo: Tratamento de Erros e Exceções em Java
- * Caso de uso: Criando exceções personalizadas
+ * Conteúdo: Tratamento de Erros e Exceções
+ * Caso de uso: Criação e uso de exceções personalizadas
  * Data de criação: 17/09/2025
  */
 

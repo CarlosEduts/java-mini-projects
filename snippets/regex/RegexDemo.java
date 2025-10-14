@@ -21,11 +21,10 @@ public class RegexDemo {
         System.out.println("Texto ...: " + loremText);
         System.out.print("Indices onde os caracteres '" + charsRegex + "' foram encontrados ...: ");
 
-        // Inicia a busca em loop
         while (matcher.find()) {
             System.out.print(matcher.start() + " (" + matcher.group() + "), ");
         }
-        System.out.println("\n"); // Apenas para quebrar a linha
+        System.out.println("\n");
 
         // 2️⃣ ==> Validar e-mail
         Pattern emailPattern = Pattern.compile("^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,}$");
@@ -34,6 +33,5 @@ public class RegexDemo {
 
         System.out.println("E-mail valido? ...: " + (emailPattern.matcher(validEmail).matches() ? "Sim" : "Não"));
         System.out.println("E-mail valido? ...: " + (emailPattern.matcher(invalidEmail).matches() ? "Sim" : "Não"));
-        System.out.println("\n"); // Apenas para quebrar a linha
     }
 }

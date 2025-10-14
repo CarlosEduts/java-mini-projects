@@ -1,8 +1,8 @@
 package snippets.error_handling.try_catch_finally;
 
 /*
- * Conteúdo: Tratamento de Erros e Exceções em Java
- * Caso de uso: Bloco try-catch-finally
+ * Conteúdo: Tratamento de Erros e Exceções
+ * Caso de uso: Blocos try, catch e finally
  * Data de criação: 17/09/2025
  */
 
