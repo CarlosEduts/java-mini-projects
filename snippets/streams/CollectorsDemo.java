@@ -38,7 +38,7 @@ public class CollectorsDemo {
         IntSummaryStatistics numbsCollect = numbs.stream().collect(Collectors.summarizingInt(Integer::intValue));
         System.out.println(numbsCollect);
 
-        List<Vehicle> Vehicles = List.of(
+        List<Vehicle> vehicles = List.of(
                 new Vehicle("Carro", 20000, Color.RED),
                 new Vehicle("Bicicleta", 1500, Color.GREEN),
                 new Vehicle("Caminhão", 30000, Color.BLUE),
@@ -49,7 +49,7 @@ public class CollectorsDemo {
         );
 
         System.out.println("\nContagem  do grupo de veículos pela cor ...: ");
-        Vehicles.stream()
+        vehicles.stream()
                 .collect(Collectors.groupingBy(Vehicle::getColor, Collectors.counting()))
                 .forEach((color, aLong) -> System.out.println(color + ": " + aLong + (aLong > 1 ? " veículos" : " veículo")));
     }
