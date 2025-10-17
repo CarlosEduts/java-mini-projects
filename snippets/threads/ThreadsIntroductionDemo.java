@@ -19,9 +19,18 @@ public class ThreadsIntroductionDemo {
         Thread thread_01 = new Thread(new RunThreadTask("01"));
         Thread thread_02 = new Thread(new RunThreadTask("02"));
         Thread thread_03 = new Thread(new RunThreadTask("03"));
+        Thread thread_04 = new Thread(new RunThreadTask("04"));
 
         thread_01.start();
+        try {
+            thread_01.join(); // Aguarda a conclusão da thread_01 antes de iniciar as outras
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+
+        // Inicia as outras threads simultaneamente
         thread_02.start();
         thread_03.start();
+        thread_04.start();
     }
 }
