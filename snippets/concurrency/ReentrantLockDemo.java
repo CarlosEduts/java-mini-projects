@@ -15,7 +15,7 @@ record Work(String identifier, ReentrantLock reentrantLock) implements Runnable 
 
         try {
             if (reentrantLock.isHeldByCurrentThread()) {
-                System.out.println("+ Thread " + this.identifier + " entrou na exceção.");
+                System.out.println("+ Thread " + this.identifier + " entrou na seção crítica.");
             }
             System.out.println("- " + reentrantLock.getQueueLength() + " Threads esperando na fila.");
             System.out.println("- Thread " + this.identifier + " em espera de 2 segundos.");
