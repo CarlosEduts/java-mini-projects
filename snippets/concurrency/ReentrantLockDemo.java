@@ -3,8 +3,8 @@ package snippets.concurrency;
 import java.util.concurrent.locks.ReentrantLock;
 
 /*
- * Conteúdo:
- * Caso de uso:
+ * Conteúdo: Trabalhando com Concorrência
+ * Caso de uso: Demonstração do uso de ReentrantLock para controle de acesso a recursos compartilhados em um ambiente concorrente.
  * Data de criação: 27/10/2025
  */
 
