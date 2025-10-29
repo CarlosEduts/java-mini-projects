@@ -7,6 +7,12 @@ import java.util.concurrent.ExecutionException;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
+/*
+ * Conteúdo: Trabalhando com Concorrência
+ * Caso de uso: Demonstração do uso de Callable para retornar resultados de tarefas assíncronas, diferente de Runnable que não retorna valores.
+ * Data de criação: 29/10/2025
+ */
+
 class RandomDoubleList implements Callable<List<Double>> {
     @Override
     public List<Double> call() throws Exception {
@@ -18,12 +24,6 @@ class RandomDoubleList implements Callable<List<Double>> {
         return list;
     }
 }
-
-/*
- * Conteúdo: Trabalhando com Concorrência
- * Caso de uso: Demonstração do uso de Callable para retornar resultados de tarefas assíncronas, diferente de Runnable que não retorna valores.
- * Data de criação: 29/10/2025
- */
 
 public class CallableDemo {
     public static void main(String[] args) {
