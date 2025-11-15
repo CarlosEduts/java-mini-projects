@@ -1,9 +1,10 @@
 # Traduções - Exemplo de Internacionalização
 
-Esta pasta contém os arquivos de tradução utilizados no exemplo de internacionalização de texto com **`ResourceBundle`**.
+Esta pasta contém os arquivos de tradução utilizados no exemplo de internacionalização de texto com **`ResourceBundle`
+**.
 
 O código de referência para este exemplo está localizado em:
 
 ```
-./utility_classes/internationalization/ResourceBundleDemo.java
+snippets/internationalization/ResourceBundleDemo.java
 ```
